@@ -10,9 +10,7 @@ import os
 # Load environment variables from .env file
 load_dotenv()
 
-# MongoDB URI and bot token from environment variables
-MONGO_URI = "mongodb+srv://aminadamsolomon:aminadamsolomon123@cluster0.xe6pg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-TOKEN = "7832902138:AAGsH_D_BkhmlW-ZEw81ZJnwhVzIJtygJdc"
+# 
 
 # Enable logging for debugging purposes
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
